@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="322.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller1">
+   <children>
+      <Button id="start" fx:id="start" layoutX="459.0" layoutY="14.0" mnemonicParsing="false" onAction="#StartAction" prefHeight="43.0" prefWidth="74.0" text="开始分析" />
+      <TextArea id="textarea" fx:id="textarea" layoutY="96.0" prefHeight="282.0" prefWidth="714.0" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font></TextArea>
+      <TextField id="address" fx:id="address" layoutX="14.0" layoutY="14.0" prefHeight="43.0" prefWidth="227.0" promptText="请输入文件" />
+      <Button id="input" fx:id="input" layoutX="259.0" layoutY="14.0" mnemonicParsing="false" onAction="#InputAction" prefHeight="43.0" prefWidth="74.0" text="导入文件" />
+      <Button id="pro" fx:id="pro" layoutX="360.0" layoutY="14.0" mnemonicParsing="false" onAction="#ProAction" prefHeight="43.0" prefWidth="74.0" text="预处理" />
+   </children>
+</AnchorPane>
